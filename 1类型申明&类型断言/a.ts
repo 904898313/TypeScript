@@ -86,6 +86,10 @@ obj = [];
 obj = {};
 console.log('objectValue is', obj)
 
+// 时间 date
+let date: Date = new Date();
+console.log('timeValue is', date)
+
 // 类型断言
 // 1.(<类型>变量)
 let n1: number = 1.1111;
