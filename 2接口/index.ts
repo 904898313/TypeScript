@@ -53,7 +53,8 @@ const fun1:funInter = (a:'str', b:1) => {
 // 4.可索引的类型
 
 // 5.接口允许重复声明
-// const obj:myInterface = { age:1 } //Error 缺少name
+// const obj3:myInterface = { age:1 } //Error 缺少name
+const obj3:myInterface = { age:1, name:'ycg' } //Success
 interface myInterface {
   age: number
 }
@@ -61,4 +62,4 @@ interface myInterface {
   name: string
 }
 // 结果等于两个interface相加,同时拥有age和name
-// 同时也显示interface有类型声明提升的效果(在声明之前使用,任然遵守之后的声明规则)
+// 同时也证明interface有类型声明提升的效果(在声明之前使用,任然遵守之后的声明规则)

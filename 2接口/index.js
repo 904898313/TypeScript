@@ -16,5 +16,9 @@ var fun = function (params1, params2) {
 var fun1 = function (a, b) {
     return b > 1;
 };
+// 4.可索引的类型
+// 5.接口允许重复声明
+// const obj3:myInterface = { age:1 } //Error 缺少name
+var obj3 = { age: 1, name: 'ycg' }; //Success
 // 结果等于两个interface相加,同时拥有age和name
-// 同时也显示interface有类型声明提升的效果(在声明之前使用,任然遵守之后的声明规则)
+// 同时也证明interface有类型声明提升的效果(在声明之前使用,任然遵守之后的声明规则)
