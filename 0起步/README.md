@@ -1,5 +1,3 @@
-# typeScript
-TS学习
 ##### typeScript官方文档:https://www.tslang.cn/
 浏览器默认不能解析.ts后缀的文件，需要用到解析器来将ts文件转为js文件，解析器为nodejs编写，需先下载nodejs
 ##### nodejs官网:http://nodejs.cn/
